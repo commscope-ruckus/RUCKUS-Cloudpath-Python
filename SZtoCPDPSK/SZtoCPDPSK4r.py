@@ -6,10 +6,10 @@ import sys
 
 CPFQDN = "cloudpath.my.domain" # Cloudpath FQDN or ip address
 CPUSER = "john.murphy1@commscope.com" # Cloudpath user
-CPPASSWORD = "ruckus123!" # Cloudpath password
-CPAPIKEY = "OxcC77TuJwKz" # Cloupath API key
+CPPASSWORD = "password" # Cloudpath password
+CPAPIKEY = "API KEY" # Cloupath API key
 SZKEYFILE = "dpsk_20210501032622.csv" # .csv file with DPSKs exported from SZ (Clients/Dynamic PSK/Export All)
-CPDPSKGUID = "AccountDpskPool-f734697a-3ee9-4b87-a375-5963297e3686" # Cloudpath DPSK Pool Guid (Configuration/DPSK Pools)
+CPDPSKGUID = "AccountDpskPool-f7XXXXa-3ee9-4b87-a375-5963297eXXXX" # Cloudpath DPSK Pool Guid (Configuration/DPSK Pools)
 
 # run using python3 SZtoCPDPSK4r.py
 
